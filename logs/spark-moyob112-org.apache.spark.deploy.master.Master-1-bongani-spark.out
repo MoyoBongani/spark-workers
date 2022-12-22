@@ -1,0 +1,20 @@
+Spark Command: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/moyob112/spark-3.3.1-bin-hadoop3/conf/:/home/moyob112/spark-3.3.1-bin-hadoop3/jars/* -Xmx1g org.apache.spark.deploy.master.Master --host bongani-spark.europe-west1-b.c.spark-372413.internal --port 7077 --webui-port 8080
+========================================
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+22/12/22 13:18:48 INFO Master: Started daemon with process name: 9330@bongani-spark
+22/12/22 13:18:48 INFO SignalUtils: Registering signal handler for TERM
+22/12/22 13:18:48 INFO SignalUtils: Registering signal handler for HUP
+22/12/22 13:18:48 INFO SignalUtils: Registering signal handler for INT
+22/12/22 13:18:49 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+22/12/22 13:18:49 INFO SecurityManager: Changing view acls to: moyob112
+22/12/22 13:18:49 INFO SecurityManager: Changing modify acls to: moyob112
+22/12/22 13:18:49 INFO SecurityManager: Changing view acls groups to: 
+22/12/22 13:18:49 INFO SecurityManager: Changing modify acls groups to: 
+22/12/22 13:18:49 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(moyob112); groups with view permissions: Set(); users  with modify permissions: Set(moyob112); groups with modify permissions: Set()
+22/12/22 13:18:49 INFO Utils: Successfully started service 'sparkMaster' on port 7077.
+22/12/22 13:18:49 INFO Master: Starting Spark master at spark://bongani-spark.europe-west1-b.c.spark-372413.internal:7077
+22/12/22 13:18:50 INFO Master: Running Spark version 3.3.1
+22/12/22 13:18:50 INFO Utils: Successfully started service 'MasterUI' on port 8080.
+22/12/22 13:18:50 INFO MasterWebUI: Bound MasterWebUI to 0.0.0.0, and started at http://bongani-spark.europe-west1-b.c.spark-372413.internal:8080
+22/12/22 13:18:50 INFO Master: I have been elected leader! New state: ALIVE
+22/12/22 13:42:09 INFO Master: Registering worker 10.132.0.3:42039 with 2 cores, 2.8 GiB RAM
